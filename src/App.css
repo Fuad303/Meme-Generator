@@ -58,7 +58,19 @@ main {
   border: none;
   cursor: pointer;
 }
-
+@media (max-width: 400px){
+  .form--button{
+    width: 200px;
+    height: 35px;
+  }
+  .form{
+    grid-template: 20px 20px / 1fr;
+    gap: 30px;
+  }
+  .form--input{
+    height: 40px;
+  }
+}
 .meme {
   position: relative;
   display: flex;
